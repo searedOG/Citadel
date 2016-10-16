@@ -34,8 +34,70 @@ reinforcements:
   percent_chance: 100
   hit_points: 50
 # mature time is in minutes
-  mature_time: 5
+  mature_time: 0.5
   acid_time: 30
+  scale_amount: 1
+  lore:
+  effect:
+   type: FLYING_GLYPH
+   speed: 0.5
+   particleCount: 50
+   
+    iron_ingot:
+  material: IRON_INGOT
+  requirements: 1
+  return: 1
+  percent_chance: 100
+  hit_points: 250
+  mature_time: 30
+  acid_time: 25
+  scale_amount: 1
+  lore:
+  effect:
+   type: FLYING_GLYPH
+   speed: 0.5
+   particleCount: 50
+   
+    gold_ingot:
+  material: GOLD_INGOT
+  requirements: 1
+  return: 1
+  percent_chance: 100
+  hit_points: 100
+  mature_time: 10
+  acid_time: 10
+  scale_amount: 1
+  lore:
+  effect:
+   type: FLYING_GLYPH
+   speed: 0.5
+   particleCount: 50
+   
+   
+    diamond:
+  material: DIAMOND
+  requirements: 1
+  return: 1
+  percent_chance: 100
+  hit_points: 1500
+  mature_time: 60
+  acid_time: 150
+  scale_amount: 1
+  lore:
+  effect:
+   type: FLYING_GLYPH
+   speed: 0.5
+   particleCount: 50
+   
+   
+    Emerald:
+  material: EMERALD
+  requirements: 1
+  return: 1
+  percent_chance: 100
+  hit_points: 2000
+  mature_time: 1440
+  acid_time: 200
   scale_amount: 1
   lore:
   effect:
